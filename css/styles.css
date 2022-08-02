@@ -213,29 +213,40 @@ h3{
         }
 }
 
+/*---Bloques--*/
 
-
-    
-
-
-/*---Porque comprar con nosotros--*/
-
-.imgnosotros{
-    background-color: #FFCE00;
+.bloques{
     display: grid;
-    /* grid-template-columns: repeat(0, 1fr); */
-    /* grid-template-rows: repeat(1, 1fr); */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .bloques{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.bloque{
+    text-align: center;
+}
+
+.bloque__imagen{
+    width: 100%;
+}
+
+.bloque__titulo{
+    margin: 0;
+}
+
+
+.contenedor comprar{
 
 }
-.imgnosotros__icono{
-    /* max-height: 100%; */
+.comprar__titulo{
 
 }
-.imgnosotros__subtitulo{
-    /* max-height: 100%; */
-}
-.imgnosotros_parrafo{
 
-}
+
 
 /*---------------*/
