@@ -185,4 +185,19 @@ h3{
         grid-column: 2 / 4;
     }
 }
+/*--Nosotros--*/
+
+.contenedor__bloque{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+}
+
+.contenedor__bloque-parrafo {
+    /* background-color: #FFCE00; */
+    padding: 2rem;
+}
+
+
+
 /*---------------*/
